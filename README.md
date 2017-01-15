@@ -22,11 +22,11 @@ The "Packages" packages directory is located differently in different platforms.
 
 ## Using
 
-  Mac OS X: ```Control+C```
+* Mac OS X: ```Control+C```
 
-  Linux: ```Control+Shift+C```
+* Linux: ```Control+Shift+C```
 
-  Windows: ```Control+Shift+C```
+* Windows: ```Control+Shift+C```
 
 
 Or get directly the link from the context menu (right clic)
