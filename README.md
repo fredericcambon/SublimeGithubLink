@@ -2,6 +2,8 @@
 
 Get Github links from text selections in ST
 
+## Example
+
 ![ST](http://i.imgur.com/ai1VQeu.png)
 
 
