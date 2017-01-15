@@ -2,6 +2,14 @@
 
 Get Github links from text selections in ST
 
+![ST](http://i.imgur.com/ai1VQeu.png)
+
+
+[https://github.com/cambonf/nes/blob/master/src/utils/Observer.js#L0-L8](https://github.com/cambonf/nes/blob/master/src/utils/Observer.js#L0-L8)
+
+
+![Github](http://i.imgur.com/c7rWKlx.png)
+
 ## Installing
 
 **Without Git:** Download the latest source from the [Github Repo](http://github.com/fredericcambon/SublimeGithubLink) and copy the whole directory into the Packages directory.
