@@ -12,13 +12,13 @@ Get Github links from text selections in ST
     git clone git://github.com/fredericcambon/SublimeGithubLink.git
 ```
 
-The "Packages" packages directory is located differently in different platforms. To access the directory use:
+The `Packages` packages directory is located differently in different platforms. To access the directory use:
 
-* OS X: Sublime Text -> Preferences -> Browse Packages
+* OS X: `Sublime Text -> Preferences -> Browse Packages`
 
-* Linux: Preferences -> Browse Packages
+* Linux: `Preferences -> Browse Packages`
 
-* Windows: Preferences -> Browse Packages
+* Windows: `Preferences -> Browse Packages`
 
 ## Using
 
