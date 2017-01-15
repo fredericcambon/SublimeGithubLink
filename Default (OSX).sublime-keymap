@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+c"], "command": "github_link" }
+]
