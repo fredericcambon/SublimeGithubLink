@@ -35,10 +35,10 @@ class GithubLinkCommand(sublime_plugin.TextCommand):
         return shell_cmd('git rev-parse --abbrev-ref HEAD')
 
     def rows_to_github_format(self, line_a, line_b):
-        link = '#L{}'.format(min(line_a, line_b))
+        link = '#L{}'.format(line_a)
 
         if line_b != line_a:
-            link += '-L{}'.format(max(line_a, line_b))
+            link += '-L{}'.format(line_b)
 
         return link
 
@@ -67,11 +67,11 @@ class GithubLinkCommand(sublime_plugin.TextCommand):
         sel = self.view.sel()[0]
 
         if not sel.empty():
-            line_a, col_a = read_rowcol(sel.a)
-            line_b, col_b = read_rowcol(sel.b)
+            line_a, col_a = read_rowcol(sel.begin())
+            line_b, col_b = read_rowcol(sel.end())
 
             if col_b == 0:
-                line_b = line_b - 1
+                line_b -= 1
 
             link += self.rows_to_github_format(line_a, line_b)
 
